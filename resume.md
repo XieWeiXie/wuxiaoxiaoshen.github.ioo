@@ -7,8 +7,6 @@ main_nav: true
 
 ---
 
-<h1 style="color:green;text-align:center">我是谁？</h1>
-
 <h2 style="color:green;text-align:center">过去</h2>
 
 <h2 style="color:green;text-align:center">现在</h2>
