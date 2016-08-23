@@ -4,7 +4,7 @@ gems:
   - jekyll-sitemap
 
 # Site settings
-title: Wu-xiaoshen
+title: “Wu-xiaoshen”
 subtitle: "读书、思维 和 精进"
 email: wuxiaoshen@shu.edu.cn
 name: Wu-xiaoshen
@@ -12,7 +12,7 @@ description: 初学者
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
 cover: "assets/images/twitter.jpg"
-logo: 初学者
+logo: "assets/images/logo/logo5.png"
 
 # Build settings
 markdown: kramdown
@@ -30,7 +30,7 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-disqus_shortname: bencentra
+disqus_shortname: #bencentra
 
 # Google analytics
 ga_tracking_id: 
