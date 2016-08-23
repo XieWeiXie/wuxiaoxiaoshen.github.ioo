@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Book"
+title: 书籍
 permalink: /Books/
 published: true
 main_nav: true
