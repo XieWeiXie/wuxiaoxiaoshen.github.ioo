@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "求职邮件模板."
+categories: thoughts
+tags: book
+cover: assets/images/zhihu.jpg
+author: Wu-xiaoshen
+date: 2016-08-23 22:00:00
+---
