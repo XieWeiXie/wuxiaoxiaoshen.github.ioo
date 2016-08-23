@@ -4,23 +4,12 @@ title:  "面试总结."
 categories: thoughts
 tags: book
 cover: assets/images/zhihu.jpg
-author: Xie xiao lu
+author: wu-xiaoshen
 date: 2016-05-13 22:00:00
 ---
 
 
 ### 番外篇：面试总结(1)
-
-
-
----
-> 初学者
-
----
-> **你经历的每一件事都会成为未来的部分，具体看你如何对待了.**
-
----
-
 
 
 ### 0：前言
@@ -111,7 +100,9 @@ date: 2016-05-13 22:00:00
 
 
 ---
+
 ### 3：面试的收获？
+
 结果：
 - 第一家被拒。
 - 第二家确认offer。
