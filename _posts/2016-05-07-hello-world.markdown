@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "001: hello world."
+title:  "hello world."
 categories: thoughts
 tags: book
 cover: assets/images/zhihu.jpg
 author: Wu-xiaoshen
-date: 2015-05-07 16:00:00
+date: 2016-05-07 16:00:00
 ---
 
 
