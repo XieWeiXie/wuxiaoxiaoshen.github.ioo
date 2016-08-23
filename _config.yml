@@ -11,7 +11,7 @@ name: Wu-xiaoshen
 description: '初学者'
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
-cover: "assets/images/twitter.jpg"
+cover: "assets/images/semantic.jpg"
 #logo:   #"assets/images/logo/logo5.png"
 
 # Build settings
