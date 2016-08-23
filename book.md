@@ -7,7 +7,7 @@ main_nav: true
 
 ---
 
-<h2 style="color:blue;text-align:center;">读过的书</h2>
+<h2 style="color:green;text-align:center;">读过的书</h2>
 
 - 《把时间当作朋友》
 - 《万万没想到 -- 用理工科思维看待这个世界》

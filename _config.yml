@@ -4,15 +4,15 @@ gems:
   - jekyll-sitemap
 
 # Site settings
-title: “Wu-xiaoshen”
-subtitle:    读书    |    思维    |    精进
+title: 'Wu-xiaoshen'
+subtitle:    '读书    、    思维    、    精进'
 email: wuxiaoshen@shu.edu.cn
 name: Wu-xiaoshen
-description: 初学者
+description: '初学者'
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
 cover: "assets/images/twitter.jpg"
-logo:  初学者 #"assets/images/logo/logo5.png"
+#logo:  #初学者 #"assets/images/logo/logo5.png"
 
 # Build settings
 markdown: kramdown
