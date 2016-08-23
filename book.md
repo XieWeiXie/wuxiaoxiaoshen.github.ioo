@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 书籍
-permalink: /Books/
+permalink: /book/
 published: true
 main_nav: true
 
