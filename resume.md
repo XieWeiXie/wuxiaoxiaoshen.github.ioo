@@ -1,14 +1,14 @@
 ---
 layout: page
-title: 简历
+title: Resume
 permalink: /resume/
 published: true
 main_nav: true
 
 ---
 
-<h2 style="color:green;text-align:center">过去</h2>
+<h2 style="color:#2b79c3;">过去</h2>
 
-<h2 style="color:green;text-align:center">现在</h2>
+<h2 style="color:#2b79c3;">现在</h2>
 
-<h2 style="color:green;text-align:center">未来</h2>
+<h2 style="color:#2b79c3;">未来</h2>

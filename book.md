@@ -1,13 +1,13 @@
 ---
 layout: page
-title: 书籍
+title: Book
 permalink: /book/
 published: true
 main_nav: true
 
 ---
 
-<h2 style="color:green;text-align:center;">读过的书</h2>
+<h2 style="color:#2b79c3;">读过的书</h2>
 
 - 《把时间当作朋友》
 - 《万万没想到 -- 用理工科思维看待这个世界》
@@ -22,3 +22,4 @@ main_nav: true
 - 《你的灯亮着吗》
 - 《沟通圣经》
 - 《智识分子 -- 复杂社会的现代人》
+- 《追时间的人》
