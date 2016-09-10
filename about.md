@@ -3,9 +3,10 @@ layout: page
 title: About
 permalink: /about/
 main_nav: true
+
 ---
 
-<h2 style="color:green;text-align:center">追时间的人</h2>
+<h2 style="color:#2b79c3;">追时间的人</h2>
 
 1. 初学者
 2. 理想主义者
@@ -13,7 +14,7 @@ main_nav: true
 
 ---
 
-<h2 style="color:green;text-align:center">把时间当作朋友</h2>
+<h2 style="color:#2b79c3;">把时间当作朋友</h2>
 
 1. 思维
 2. 心理学
