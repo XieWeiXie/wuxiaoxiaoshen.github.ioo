@@ -107,7 +107,7 @@ python manage.py inspectdb > one.py : 数据库model 形式写入one.py 文件
 {% endcomment %}
 
 // 5.引入static文件
-{% load static %}
+<code>{% load static %}</code>
 
 // 6.继承模板
 {% extends "base.html" %}
