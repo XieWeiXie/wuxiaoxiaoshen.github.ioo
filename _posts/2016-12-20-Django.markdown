@@ -92,8 +92,6 @@ python manage.py inspectdb > one.py : 数据库model 形式写入one.py 文件
 // 2.判断
 {% if condition1 %}
    ... display 1
-{% elif condiiton2 %}
-   ... display 2
 {% else %}
    ... display 3
 {% endif %}
