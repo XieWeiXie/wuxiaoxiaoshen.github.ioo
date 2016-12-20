@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "认知：关于超链接儿."
+title:  "Django"
 categories: thoughts
 tags: book
 cover: assets/images/zhihu.jpg
