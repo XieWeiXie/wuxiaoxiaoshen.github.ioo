@@ -1,0 +1,174 @@
+---
+layout: post
+title:  "认知：关于超链接儿."
+categories: thoughts
+tags: book
+cover: assets/images/zhihu.jpg
+author: Wu-xiaoshen
+date: 2016-12-20 21:13:00
+---
+
+# Django_web框架的知识梳理
+
+## 1. 流程
+
+1. 创建项目
+
+```
+django-admin startpeoject projectname
+```
+
+2. 编写app
+
+```
+python manage.py startapp appname
+```
+
+3. 编写各文件
+
+```
+1. models.py : 模型：数据库
+2. views.py  : 视图
+3. .html     : 前端知识
+```
+
+
+## 2. 各文件用途
+
+```
+1. settings.py : 设置文件
+- 设置数据库:DATABASES
+- 设置模板路径:TEMPLATES
+- 设置静态文件路径:STATICFILES_DIRS
+- 注册app:INSTALLED_APPS
+
+2. urls.py  : 路由配置
+匹配url 和 视图文件对应
+- app/urls.py
+- project/urls.py
+
+3. models.py : 数据库表设计
+- ORM
+
+4. views.py :视图文件
+
+- Template : 模板
+- Context : 上下文
+- render : 渲染
+
+5. admin.py :后台管理
+
+admin.site.register(modelsname)
+
+后台可以管理modelsname 这个数据表
+
+```
+
+## 3. 常用命令
+
+```
+django-admin startproject projectname：创建项目
+python manage.py startapp appname: 创建app
+python manage.py runserver: 启动服务器
+python manage.py migrate: 迁移数据库，创建数据库表
+python manage.py makemigrations: 更新数据库
+python manage.py shell: shell 命令
+python manage.py inspectdb: 查看数据库表创建过程
+python manage.py inspectdb > one.py : 数据库model 形式写入one.py 文件
+
+
+
+
+```
+
+## 4. 语法
+
+### 1. 模板语法
+
+```
+// 1. 变量
+{{ value }} : 变量
+
+// 2.判断
+{% if condition1 %}
+   ... display 1
+{% elif condiiton2 %}
+   ... display 2
+{% else %}
+   ... display 3
+{% endif %}
+
+// 3.循环
+{% for one in items %}
+
+{% endfor %}
+
+// 4.注释
+{% comment %}
+
+{% endcomment %}
+
+// 5.引入static文件
+{% loads static %}
+
+// 6.继承模板
+{% extends "base.html" %}
+
+// 7.替换
+{% block main %}
+...
+{% endblock %}
+
+
+```
+
+### 2. url配置
+
+```
+编写：app/urls.py
+urlpatterns = [
+    url(r"^1/", one),
+    url(r"^2/", two),
+]
+编写：project/urls.py
+urlpatterns = [
+    url(r"^index/", index),
+    url(r"^index2/", include("app.urls")),
+]
+访问网址：
+http://127.0.0.1:8000/index2/1  访问one
+http://127.0.0.1:8000/index2/2  访问two
+
+http://127.0.0.1:8000/index     访问index
+
+```
+
+### 3. 模型
+
+```
+// 1. 关系型
+
+class Person(models.Model):
+    id = models.IntegerField(primary_key=True)  # AutoField?
+    name = models.CharField(max_length=20, blank=True, null=True)
+    job = models.CharField(max_length=20, blank=True, null=True)
+    age = models.CharField(max_length=20, blank=True, null=True)
+
+    class Meta:
+        db_table = 'person' // 自定义数据表，否则显示django_person
+
+    def __str__(self):
+        return self.name // 后台显示数据字段
+
+// 2. NoSQL
+from mongoengine import *
+class Jike(Document):
+    text = StringField()
+    bookName = StringField()
+    chapterNum = StringField()
+    chapterURL = StringField()
+    chapterName = StringField()
+    bookTitle = StringField()
+
+    meta = {"collection": "daomubiji2"} // 关联服务器上存在的collection
+```
